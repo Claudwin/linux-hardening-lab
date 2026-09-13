@@ -10,10 +10,10 @@ CIS Benchmark Level 1 hardening of a Rocky Linux 9 server in Microsoft Azure, me
 
 | Phase | What changed | Score |
 |---|---|---|
-| **Baseline** [Report](https://raw.githack.com/Claudwin/linux-hardening-lab/refs/heads/main/reports/baseline-report.html) | Default Rocky Linux 9.8 image, unmodified | **71.47%** |
+| **Baseline** [(Report Link)](https://raw.githack.com/Claudwin/linux-hardening-lab/refs/heads/main/reports/baseline-report.html) | Default Rocky Linux 9.8 image, unmodified | **71.47%** |
 | **Manual — SSH access control** | Root SSH login disabled; authentication attempts capped at 4 | **71.51%** |
 | **Manual — permissions, accounts, auditing** | No change — controls 03, 04, 07 verified already compliant | **71.51%** |
-| **Automated remediation** | OpenSCAP-generated Bash script, 100+ rules, applied and rebooted | **96.85%** |
+| **Automated remediation** [(Report Link)](https://raw.githack.com/Claudwin/linux-hardening-lab/refs/heads/main/reports/remediated-report.html) | Default Rocky Linux 9.8 image, unmodifie| OpenSCAP-generated Bash script, 100+ rules, applied and rebooted | **96.85%** |
 
 520 rules evaluated per scan. Two controls applied by hand moved the score 0.04 points; one generated script moved it 25. That contrast is the point — manual work builds the understanding, automation delivers the coverage, and they are different skills.
 
